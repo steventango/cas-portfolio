@@ -1,0 +1,129 @@
+<!doctype HTML>
+<html lang="en" type="text/html" charset="utf-8">
+
+<head>
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1" />
+  <title>Steven's CAS Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons|Berkshire+Swash|Raleway" rel="stylesheet" />
+  <link href="https://unpkg.com/material-components-web@3.0.0/dist/material-components-web.min.css" rel="stylesheet" />
+  <link href="./index.css" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" type="image/png" href="./images/icon-32.png"/>
+</head>
+
+<body>
+  <header id="parallax_header" class="no-print">
+    <div id="parallax_header_img" class="blur"></div>
+    <div class="centertext">
+      <h1>CAS Portfolio</h1>
+      <h2>Steven Tang<br>May 2020</h2>
+    </div>
+  </header>
+  <header id="top_app_bar" class="mdc-top-app-bar mdc-top-app-bar--short no-print">
+    <div class="mdc-top-app-bar__row">
+      <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+        <a class="material-icons mdc-top-app-bar__navigation-icon mdc-ripple-surface">menu</a>
+      </section>
+      <section class="mdc-top-app-bar__section">
+        <div id="tab_bar" class="mdc-tab-bar" role="tablist">
+          <div class="mdc-tab-scroller">
+            <div class="mdc-tab-scroller__scroll-area">
+              <div class="mdc-tab-scroller__scroll-content">
+                <a href="#creativity" class="mdc-tab" role="tab" aria-selected="true" tabindex="0">
+                  <span class="mdc-tab__content">
+                    <span class="mdc-tab__text-label">Creativity</span>
+                  </span>
+                  <span class="mdc-tab-indicator">
+                    <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                  </span>
+                  <span class="mdc-tab__ripple"></span>
+                </a>
+                <a href="#activity" class="mdc-tab" role="tab" aria-selected="true" tabindex="1">
+                  <span class="mdc-tab__content">
+                    <span class="mdc-tab__text-label">Activity</span>
+                  </span>
+                  <span class="mdc-tab-indicator">
+                    <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                  </span>
+                  <span class="mdc-tab__ripple"></span>
+                </a>
+                <a href="#service" class="mdc-tab" role="tab" aria-selected="true" tabindex="2">
+                  <span class="mdc-tab__content">
+                    <span class="mdc-tab__text-label">Service</span>
+                  </span>
+                  <span class="mdc-tab-indicator">
+                    <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                  </span>
+                  <span class="mdc-tab__ripple"></span>
+                </a>
+                <a href="#timeline" class="mdc-tab" role="tab" aria-selected="true" tabindex="3">
+                  <span class="mdc-tab__content">
+                    <span class="mdc-tab__text-label">Timeline</span>
+                  </span>
+                  <span class="mdc-tab-indicator">
+                    <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                  </span>
+                  <span class="mdc-tab__ripple"></span>
+                </a>
+                <a href="#outcomes" class="mdc-tab" role="tab" aria-selected="true" tabindex="5">
+                  <span class="mdc-tab__content">
+                    <span class="mdc-tab__text-label">Outcomes</span>
+                  </span>
+                  <span class="mdc-tab-indicator">
+                    <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                  </span>
+                  <span class="mdc-tab__ripple"></span>
+                </a>
+                <a href="#project" class="mdc-tab" role="tab" aria-selected="true" tabindex="6">
+                  <span class="mdc-tab__content">
+                    <span class="mdc-tab__text-label">Project</span>
+                  </span>
+                  <span class="mdc-tab-indicator">
+                    <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                  </span>
+                  <span class="mdc-tab__ripple"></span>
+                </a>
+                <a href="#about" class="mdc-tab" role="tab" aria-selected="true" tabindex="7">
+                  <span class="mdc-tab__content">
+                    <span class="mdc-tab__text-label">About</span>
+                  </span>
+                  <span class="mdc-tab-indicator">
+                    <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                  </span>
+                  <span class="mdc-tab__ripple"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mdc-top-app-bar__section">
+        <div id="search_bar" class="mdc-text-field mdc-text-field--outlined mdc-text-field--with-leading-icon mdc-text-field--dense">
+          <i class="material-icons mdc-text-field__icon" tabindex="0" role="button">search</i>
+          <input type="text" id="tf-outlined" class="mdc-text-field__input" size="16">
+          <div class="mdc-notched-outline">
+            <div class="mdc-notched-outline__leading"></div>
+            <div class="mdc-notched-outline__notch">
+              <label for="tf-outlined" class="mdc-floating-label">Search</label>
+            </div>
+            <div class="mdc-notched-outline__trailing"></div>
+          </div>
+        </div>
+      </section>
+      <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
+        <a id="night_mode_toggle" class="material-icons mdc-top-app-bar__action-item mdc-ripple-surface" aria-label="Toggle Theme">brightness_2</a>
+      </section>
+    </div>
+  </header>
+  <div id="progress_bar" role="progressbar" class="mdc-linear-progress no-print">
+    <div class="mdc-linear-progress__bar mdc-linear-progress__primary-bar">
+      <span class="mdc-linear-progress__bar-inner"></span>
+    </div>
+  </div>
+  <main id="main">
+    Welcome to my International Baccalaureate CAS Portfolio Website! Thank you for joining me on my journey to to document my progress and journey throughout my CAS Experiences. Please click a link in the <a onclick="top_app_bar.foundation_.adapter_.removeClass('mdc-top-app-bar--short-collapsed'); top_app_bar.foundation_.isCollapsed_ = false;">menu</a> to see my reflections.<br><br><br><br><br><br><br><br>
+  </main>
+  <script defer src="https://unpkg.com/material-components-web@3.0.0/dist/material-components-web.min.js"></script>
+  <script defer src="./index.js"></script>
+</body>
+
+</html>
